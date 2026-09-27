@@ -1,0 +1,75 @@
+Rico Adi Pratama
+1124160054
+20
+1.72
+true
+3.14159
+2026-09-27 11:20:19.383995
+22
+64.5
+true
+Dedi
+Yoga
+30
+Bandung
+10
+sekarang string
+HALO
+halo
+Rico Pratama
+belajar dart
+dari dasar
+sampai bisa
+false
+13
+5
+36
+2.25
+2
+1
+true
+false
+false
+true
+Nilai B
+Hari kerja
+Case 1 jalan...
+Case 2 jalan setelah loncat dari case 1
+Tamu
+Lulus
+[Anggur, Semangka, Pisang]
+Anggur
+[Anggur, 123, true]
+Looping ke-1
+Looping ke-2
+Looping ke-3
+Looping ke-4
+Looping ke-5
+Saya suka Basket
+Saya suka Membaca
+Saya suka Ngoding
+Perhitungan: 0
+Perhitungan: 1
+Perhitungan: 2
+Dijalan minimum sekali
+Hobi: Basket
+Hobi: Membaca
+Hobi: Ngoding
+Hobi: BASKET
+Hobi: MEMBACA
+Hobi: NGODING
+null
+fallback
+diisi kalau null
+5
+10.0
+Halo, apa kabar!
+Halo Dedi!
+15
+Selasa
+Nama: Rizky
+Nama: Yoga
+Umur: 30
+Nama: Rizky, Umur: 25
+Nama: Yoga, Umur: 0
+Halo Fajar!
