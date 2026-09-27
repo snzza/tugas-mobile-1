@@ -153,4 +153,70 @@ sampai bisa''';
     var hurufKapital = dataHobi.toUpperCase();
     print('Hobi: $hurufKapital');
   });
+
+  // null safety
+
+  String? namaKedua;
+  namaKedua = null;
+  print(namaKedua?.length);
+
+  String? teksKosong;
+  print(teksKosong ?? 'fallback');
+  teksKosong ??= 'diisi kalau null';
+  print(teksKosong);
+
+  print(hitungTambah(2, 3));
+  print(hitungLuas(panjang: 4, lebar: 2.5));
+  sapa();
+  sapaNama('Dedi');
+  print(hitungKali(3, 5));
+  print(ambilNamaHari(2));
+  tampilkanData('Rizky');
+  tampilkanData('Yoga', 30);
+  buatUser(nama: 'Rizky', umur: 25);
+  buatUser(nama: 'Yoga');
+  var fungsiSalam = ucapSalam;
+  fungsiSalam('Fajar');
+}
+
+int hitungTambah(int x, int y) => x + y;
+
+double hitungLuas({double panjang = 1, double lebar = 1}) {
+  return panjang * lebar;
+}
+
+String ambilNamaHari(int angka) {
+  switch (angka) {
+    case 1:
+      return 'Senin';
+    case 2:
+      return 'Selasa';
+    default:
+      return 'Tidak valid';
+  }
+}
+
+void sapa() {
+  print("Halo, apa kabar!");
+}
+
+void sapaNama(String nama) {
+  print("Halo $nama!");
+}
+
+int hitungKali(int a, int b) {
+  return a * b;
+}
+
+void ucapSalam(String nama) => print("Halo $nama!");
+
+void tampilkanData(String nama, [int? umur]) {
+  print("Nama: $nama");
+  if (umur != null) {
+    print("Umur: $umur");
+  }
+}
+
+void buatUser({required String nama, int umur = 0}) {
+  print("Nama: $nama, Umur: $umur");
 }
